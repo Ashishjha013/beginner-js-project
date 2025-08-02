@@ -1,38 +1,64 @@
-.center-wrapper {
-  display: flex;
-  flex-direction: column; /* stack vertically */
-  align-items: center; /* center horizontally */
-  gap: 1rem; /* spacing between h1 and button */
-  height: 60vh; /* optional: center on full screen */
-  justify-content: center; /* optional: vertical centering */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  padding: 4rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f2f2f2, #e0d4ff);
   font-family: "Inter", sans-serif;
+  padding: 2rem;
+  color: #333;
+}
+
+.center-wrapper {
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  padding: 3rem 4rem;
+  border-radius: 2rem;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
 }
 
 h1 > span {
-  color: red;
+  color: #a200ff;
+  transition: color 0.3s ease;
 }
 
 button {
-  background-color: rgb(100, 100, 255);
+  background-color: #6a5acd;
   color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 9px;
-  border: 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 0.8rem 2rem;
+  border-radius: 12px;
+  border: none;
   cursor: pointer;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  transform: translateY(-2px);
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 14px rgba(106, 90, 205, 0.4);
 }
 
 button:hover {
-  background-color: rgb(150, 0, 244);
-  box-shadow: 0 0 12px 8px rgba(51, 0, 98, 0.3);
+  background-color: #7a00e3;
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(122, 0, 227, 0.4);
 }
 
 button:focus {
-  outline: 2px solid rgb(130, 0, 255);
-  outline-offset: 2px;
+  outline: 2px solid #a200ff;
+  outline-offset: 4px;
 }
