@@ -1,12 +1,43 @@
-🚀 Beginner JavaScript Project
+# 🚀 Beginner JavaScript Project
 
-This repository contains 1 beginner-friendly JavaScript project I built while learning HTML, CSS, and JavaScript fundamentals.
+This is a beginner-friendly project I built while learning **HTML**, **CSS**, and **JavaScript fundamentals**.
 
-✅ Projects Completed
+---
 
-| 01  | Hello World Button
+## ✅ Project Completed
 
-## 🚀 Live Demo
+| #   | Project Name        | Description                                                         |
+|-----|---------------------|---------------------------------------------------------------------|
+| 01  | Hello World Button  | A fun interactive button that asks your name and greets you on screen.
 
-[🔗 Click here to see it live](https://ashishjha013.github.io/beginner-js-project/)  
-*(Replace the link with your actual GitHub Pages link)*
+---
+
+## 🌐 Live Demo
+
+▶️ Try it here: [🔗 Click to open the live project](https://ashishjha013.github.io/beginner-js-project/)  
+*(Hosted via GitHub Pages)*
+
+---
+
+## 🧪 How to Use (Live Demo Instructions)
+
+1. **Click the link above** to open the project in your browser.
+2. You will see a **button** on the page.
+3. **Click the button.** A pop-up prompt will appear asking:
+   ```
+   What’s your name?
+   ```
+4. **Type your name** (e.g., "Amit") and press **OK**.
+5. You'll see a message appear like:
+   ```
+   Hello Amit 👋
+   ```
+6. If you leave it blank and press OK, it will show an error message like:
+   ```
+   Invalid Input
+   ```
+
+🧠 This is a simple demo of:
+- JavaScript `prompt()`
+- DOM manipulation using `textContent`
+- Conditional rendering and color styling
