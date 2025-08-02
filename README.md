@@ -4,5 +4,5 @@ This repository contains 1 beginner-friendly JavaScript project I built while le
 
 ✅ Projects Completed
 
-| 01  | Hello World Button          | ✅ Done |
+| 01  | Hello World Button
 
